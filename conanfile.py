@@ -14,7 +14,7 @@ class LibPcapConan(NxConanFile):
                "dbus":[True, False],         \
                "libnl":[True, False]}
     default_options = "shared=False",        \
-                      "ipv6=True",          \
+                      "ipv6=True",           \
                       "canusb=False",        \
                       "bluetooth=False",     \
                       "snf=False",           \
